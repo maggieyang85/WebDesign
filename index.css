@@ -1,0 +1,98 @@
+body{
+	background: white;
+	margin: 0px
+}
+
+header{
+	margin-top: 30px;
+}
+
+.container{
+	display: flex;
+}
+
+.header_img{
+	width: 253px;
+	height: 90px
+}
+.banner_img{
+	width: 960px;
+	height: 450px;
+}
+.foot_img{
+	width: 187px;
+	height: 48px
+}
+
+.icon_group{
+	display: flex;
+	margin-right: 30px;
+	justify-content: flex-end;
+}
+.icon_img{
+	width: 40px;
+	height: 40px
+}
+.icon_car{
+	flex-direction: column;
+	margin-right:30px;
+	width: 50px;
+	height: 50px
+}
+
+ul{
+	list-style-type: none;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 210px;
+	margin-right: 250px
+}
+
+a{
+	color: black;
+}
+a:link {
+ 	text-decoration: none;
+}
+a:hover {
+ 	color: blue;
+}
+
+.buttons{
+	margin-left: 235px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 382px;
+	height: 49px
+}
+.product_info{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 235px;
+	margin-right: 250px;
+	margin-bottom: 30px
+}
+.product{
+	width: 200px;
+}
+.product_img{
+	width: 200px;
+	height: 250px;
+}
+.product_title{
+	display: flex;
+	font-size: 14px;
+	color: black;
+	margin:0px;
+}
+.product_name{
+	margin:0px;
+	flex-grow: 9
+}
+.product_price{
+	margin:0px;
+	flex-grow: 1
+}
+
